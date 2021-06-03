@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }
-  </script>
+<title>nwc</title>
 <style>
 input[type=text], select {
   width: 20%;
@@ -69,11 +61,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #dcf118;
 }
 
+
 div {
-  background-image: url('backgroundd.jpg');
+  background-image: url('backgroundf.jpg');
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -86,11 +79,13 @@ label{
   font-weight: bold;
 }
 
-marquee {
+marquee{
   color: red;
 }
 
-
+p{
+  color: white;
+}
 
 </style>
 
@@ -100,13 +95,6 @@ marquee {
 
 <body style="background-color: black;">
 
-<iframe src="asmr-crinkling.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe> 
-  <audio autoplay loop id="playAudio">
-  <source src="asmr-crinkling.ogg" type="audio/ogg">
-  <source src="asmr-crinkling.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 <center>
 
@@ -117,7 +105,10 @@ marquee {
 
 <!-- Name input-->
 <div>
-<label for="first">REGISTER YOUR SOUL<br>name&emsp;</label>
+ 
+  <span style="background-color: #FFFF00">
+<label for="first">REGISTER TO KNOW<br>{UPDATES WELCOME}<br>&yen;&Xi;&sect;<br>name&emsp;</label>
+
 <input type="text" id="first" name="first" placeholder="first" required=" ">
 <input type="text" id="last" name="last" placeholder="last" required=" ">
 
@@ -153,7 +144,7 @@ marquee {
 <label for="first">&emsp;international?&emsp;</label>
 <input type="text" id="first" name="first" placeholder="+ ( x )">
 
-
+</span>
 
 <!-- Submit Button -->
 
@@ -164,31 +155,132 @@ marquee {
 <input type="submit">
 <br>
 <br>
-<br>
-<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<marquee>nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<marquee>&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
-<br>
-<br>
-<br>
-<br>
+</form>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;yawncloutyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycult&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;no_way_cult_yawn_clout_outlaw_n_y_c_nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;outlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;UFO's Why they are here. Who they have come for. When they will leave. <u>Not</u> a discussion of UFO sightings or phenomena. Two individuals say they were sent from the level above human, and will return to that level in a space ship (UFO) within the next few months. This man and woman will discuss how the transition from the human level to the next level is accompleshed, and when this may be done. This is not a religious or philosophical organization recruiting membership. However, the information has already prompted a number of individuals to devote their total enegy to the transitional process. If you have ever entertained the idea that there might be a real PHYSICAL level in space beyound the Earth's confines, you will want to attend this meeting: Saturday - Sunday 4th - 5th 12am Undisclosed, Brooklyn, NY</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"Lucky"
+
+This is a story about a girl named Lucky
+
+Early morning, she wakes up
+Knock, knock, knock on the door
+It's time for makeup, perfect smile
+It's you they're all waiting for
+
+They go, "Isn't she lovely, this Hollywood girl?"
+And they say
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night?
+
+Lost in an image, in a dream
+But there's no one there to wake her up
+And the world is spinning, and she keeps on winning
+But tell me, what happens when it stops?
+
+They go, "Isn't she lovely, this Hollywood girl?"
+And they say
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night?"
+
+"Best actress, and the winner is, Lucky!"
+"I'm Roger Johnson for Pop News, standing outside the arena waiting for Lucky"
+"Oh my God, here she comes!"
+
+Isn't she lovely, this Hollywood girl?
+She is so lucky, but why does she cry?
+If there is nothing missing in her life
+Why do tears come at night?
+And they say
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night?
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night? &yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;UFO's Why they are here. Who they have come for. When they will leave. <u>Not</u> a discussion of UFO sightings or phenomena. Two individuals say they were sent from the level above human, and will return to that level in a space ship (UFO) within the next few months. This man and woman will discuss how the transition from the human level to the next level is accompleshed, and when this may be done. This is not a religious or philosophical organization recruiting membership. However, the information has already prompted a number of individuals to devote their total enegy to the transitional process. If you have ever entertained the idea that there might be a real PHYSICAL level in space beyound the Earth's confines, you will want to attend this meeting: Saturday - Sunday 4th - 5th 12am Undisclosed, Brooklyn, NY</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;yawncloutyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycult&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;no_way_cult_yawn_clout_outlaw_n_y_c_nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;outlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"Lucky"
+
+This is a story about a girl named Lucky
+
+Early morning, she wakes up
+Knock, knock, knock on the door
+It's time for makeup, perfect smile
+It's you they're all waiting for
+
+They go, "Isn't she lovely, this Hollywood girl?"
+And they say
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night?
+
+Lost in an image, in a dream
+But there's no one there to wake her up
+And the world is spinning, and she keeps on winning
+But tell me, what happens when it stops?
+
+They go, "Isn't she lovely, this Hollywood girl?"
+And they say
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night?"
+
+"Best actress, and the winner is, Lucky!"
+"I'm Roger Johnson for Pop News, standing outside the arena waiting for Lucky"
+"Oh my God, here she comes!"
+
+Isn't she lovely, this Hollywood girl?
+She is so lucky, but why does she cry?
+If there is nothing missing in her life
+Why do tears come at night?
+And they say
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night?
+
+"She's so lucky, she's a star."
+But she cry, cry, cries in her lonely heart, thinking
+If there's nothing missing in my life
+Then why do these tears come at night? &yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;yawncloutyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycult&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<marquee>&emsp;&emsp;no_way_cult_yawn_clout_outlaw_n_y_c_nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;</marquee>
+<span style="background-color: #091202">
+
+<p>&emsp;&emsp;&yen;&Xi;&sect; &copy; 2020 OUTLAW NYC &copy; NO WAY CULT, NOT-SO PHYSICAL MEDIA 2021 &copy;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| <a href="https://www.heavensgate.com/misc/letter.htm" target="_blank">Our Position Against Suicide</a></p>
+</span>
 </div>
 
-</form>
+
 
 
 
 </center>
-<script type="text/javascript">
-    window.omnisend = window.omnisend || [];
-    omnisend.push(["accountID", "60b7d3f726c804001b0dfc99"]);
-    omnisend.push(["track", "$pageViewed"]);
-    !function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://omnisnippet1.com/inshop/launcher-v2.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}();
-</script>
+
 
 </body>
 </html>
+
