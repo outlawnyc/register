@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
+  </script>
+<style>
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  background-color: #C3D616;
+}
+
+input[type=email], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email]:focus {
+  background-color: #C3D616;
+}
+
+input[type=tel], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel]:focus {
+  background-color: #C3D616;
+}
+
+input[type=submit] {
+ background-color: #C3D616;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        width: 20%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  background-image: url('backgroundd.jpg');
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+label{ 
+  color: black; 
+  font-weight: bold;
+}
+
+marquee {
+  color: red;
+}
+
+
+
+</style>
+
+
+
+</head>
+
+<body style="background-color: black;">
+
+<iframe src="asmr-crinkling.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+  <audio autoplay loop id="playAudio">
+  <source src="asmr-crinkling.ogg" type="audio/ogg">
+  <source src="asmr-crinkling.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<center>
+
+
+<form action="/action_page.php">
+
+  
+
+<!-- Name input-->
+<div>
+<label for="first">REGISTER YOUR SOUL<br>name&emsp;</label>
+<input type="text" id="first" name="first" placeholder="first" required=" ">
+<input type="text" id="last" name="last" placeholder="last" required=" ">
+
+
+
+
+
+
+<!-- Select Multiple (why) -->
+<br>
+  <label for="selectmultiple"><br>&emsp;why are you registering? (hold CTRL or SHIFT / ⌘ CMD on Mac to select multiple) </label><br>
+
+    <select id="selectmultiple" name="selectmultiple" multiple="multiple">
+      <option value="1">event info / dates</option>
+      <option value="2">ticket releases</option>
+      <option value="3">music releases</option>
+      <option value="4">digital media / NFTs</option>
+    </select>
+
+
+<!-- Email input-->
+<br>
+<label for="email">email&emsp;</label>
+<input type="email" id="email" name="email" placeholder=" " required=" ">
+
+
+<!-- Phone input-->
+<br>
+<label for="phone">phone&emsp;</label>
+<input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+<!-- International prepended checkbox -->
+<label for="first">&emsp;international?&emsp;</label>
+<input type="text" id="first" name="first" placeholder="+ ( x )">
+
+
+
+<!-- Submit Button -->
+
+
+
+<br>
+<br>
+<input type="submit">
+<br>
+<br>
+<br>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<marquee>nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<marquee>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;nowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnycnowaycultyawncloutoutlawnyc</marquee>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+</form>
+
+
+
+</center>
+
+
+</body>
+</html>
